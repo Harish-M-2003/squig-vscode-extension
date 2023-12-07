@@ -1,0 +1,25 @@
+{
+  "name": "squig-programming-language",
+  "displayName": "squig programming language",
+  "description": "Syntax highlighting for squig",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Squig Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "squig",
+      "aliases": ["", "squig"],
+      "extensions": [".squig"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "squig",
+      "scopeName": "source.squig",
+      "path": "./syntaxes/squig.tmLanguage.json"
+    }]
+  }
+}
