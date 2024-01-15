@@ -1,15 +1,23 @@
 {
   "name": "squig-programming-language",
-  "displayName": "squig programming language",
+  "displayName": "Squig",
   "description": "Syntax highlighting for squig",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "Squig", 
   "engines": {
     "vscode": "^1.84.0"
   },
   "categories": [
-    "Squig Programming Languages"
+    "Programming Languages"
   ],
   "contributes": {
+    "iconThemes": [
+      {
+        "id" : "vscode-squig-icon-theme",
+        "label": "squig file icon",
+        "path": "icons.json" 
+      }
+    ],
     "languages": [{
       "id": "squig",
       "aliases": ["", "squig"],
@@ -21,5 +29,16 @@
       "scopeName": "source.squig",
       "path": "./syntaxes/squig.tmLanguage.json"
     }]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harish-M-2003/squig-vscode-extension.git"
+  },
+  "keywords": [
+    "programming",
+    "language",
+    "Squig",
+    "squig",
+    "sq"
+  ]
 }

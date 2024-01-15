@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "",
+	"name": "squig",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -16,6 +16,11 @@
 			"name": "string.quoted.single.squig",
 			"begin": "'",
 			"end": "'"
+		},
+		{
+			"name": "mutablestring.quoted.single.squig",
+			"begin": "`",
+			"end": "`"
 		},
 		{
 			"name": "number.squig",
@@ -57,7 +62,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.squig",
-				"match": "\\b(use|delete|type|true|false|default|file|log|function|close|switch|case|let|if|while|for|return|else|elif)\\b"
+				"match": "\\b(use|delete|type|true|false|default|file|log|function|close|switch|case|let|if|for|return|else|elif|pop)\\b"
 			}]
 		},
 		"strings": {

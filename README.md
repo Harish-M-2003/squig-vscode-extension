@@ -1,65 +1,45 @@
-# squig-programming-language README
+# Squig Programming Language - VSCode Extension
 
-This is the README for your extension "squig-programming-language". After writing up a brief description, we recommend including the following sections.
+## Overview
+
+Welcome to the official Visual Studio Code (VSCode) extension for Squig, a dynamic and interpreted programming language crafted using Python 3. Squig is designed with the main objective of providing an easy and accessible way to interact with the computer system hardware. This extension enhances the Squig development experience within the popular VSCode editor, offering features to boost productivity and streamline the coding process.
+
+A language by Harish M.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### 1. **Syntax Highlighting**
 
-For example if there is an image subfolder under your extension project workspace:
+Enjoy a visually appealing coding experience with Squig-specific syntax highlighting. The extension ensures that your Squig code is easily readable and distinguishable within the VSCode editor.
 
-\!\[feature X\]\(images/feature-x.png\)
+### 2. **Integrated Terminal Support**
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Run your Squig programs seamlessly within VSCode's integrated terminal. This feature allows you to execute and test your code without leaving the editor, enhancing your development workflow.
 
-## Requirements
+### 3. **Hardware Interaction Assistance**
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Utilize Squig's main strength - easy access to computer system hardware. The extension includes features that facilitate interactions with hardware components, allowing you to harness the full potential of Squig's capabilities.
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Open VSCode.
+2. Navigate to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
+3. Search for "Squig" in the Extensions view search box.
+4. Click "Install" to install the Squig extension.
 
-For example:
+## Getting Started
 
-This extension contributes the following settings:
+1. Create a new Squig file with the ".sq" extension.
+2. Write your Squig code using the VSCode extension features.
+3. Use the integrated terminal to run and test your Squig programs.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Example
 
-## Known Issues
+```squig
+    log "Hello techies"
+```
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Feedback and Contributions
+We welcome your feedback and contributions to improve the Squig language and this VSCode extension. Feel free to report issues, suggest new features, or submit pull requests on our GitHub repository.
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Happy coding with Squig!
